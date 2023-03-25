@@ -19,5 +19,3 @@ while True:
     r.lpush(f"{ns}:res", "")
 
     r.lrem(f"{ns}:working", 1, file)
-
-#redis-cli set cmd-sjob "python3 /home/user/rds14_s.py"
